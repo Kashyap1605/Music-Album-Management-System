@@ -15,6 +15,7 @@ public class SignUp extends javax.swing.JFrame {
      */
     public SignUp() {
         initComponents();
+        javax.swing.JOptionPane.showMessageDialog(this, "Account Created!!");
     }
 
     /**
