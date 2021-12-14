@@ -58,7 +58,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         appTitle.setText(appName);
         
         // Here I am going to set a default song file. It's not necessary.
-        songFile = new File("E:\\New-Data-From-Sony\\Music-Downloads\\GamePlayMusic.mp3");
+        songFile = new File("C:\\Users\\KASHYAP\\OneDrive\\Desktop\\songs\\Jugnu.mp3");
         
         // Now make a string to get file name
         String fileName = songFile.getName();
@@ -106,7 +106,6 @@ public class PlayerFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(700, 250));
         setResizable(false);
 
         mainPanel.setBackground(new java.awt.Color(7, 63, 86));
@@ -131,7 +130,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         quitBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        quitBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/quit.png"))); // NOI18N
+        quitBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/quit.png"))); // NOI18N
         quitBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 quitBtnMouseClicked(evt);
@@ -139,7 +138,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         settingsBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        settingsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/settings.png"))); // NOI18N
+        settingsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/settings.png"))); // NOI18N
         settingsBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 settingsBtnMouseClicked(evt);
@@ -152,7 +151,7 @@ public class PlayerFrame extends javax.swing.JFrame {
             headerPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(headerPanelLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(appTitle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(appTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 870, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(settingsBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -213,7 +212,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         controlPanel.setBackground(new java.awt.Color(7, 63, 86));
 
         repeatBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        repeatBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/repeat.png"))); // NOI18N
+        repeatBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/repeat.png"))); // NOI18N
         repeatBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 repeatBtnMouseClicked(evt);
@@ -221,7 +220,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         pauseBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        pauseBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/pause.png"))); // NOI18N
+        pauseBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/pause.png"))); // NOI18N
         pauseBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 pauseBtnMouseClicked(evt);
@@ -229,7 +228,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         playBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        playBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/play.png"))); // NOI18N
+        playBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/play.png"))); // NOI18N
         playBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 playBtnMouseClicked(evt);
@@ -237,7 +236,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         stopBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        stopBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/stop.png"))); // NOI18N
+        stopBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/stop.png"))); // NOI18N
         stopBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 stopBtnMouseClicked(evt);
@@ -245,7 +244,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         openBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        openBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/open.png"))); // NOI18N
+        openBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/open.png"))); // NOI18N
         openBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 openBtnMouseClicked(evt);
@@ -255,7 +254,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         volumeDownBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        volumeDownBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/volume_down.png"))); // NOI18N
+        volumeDownBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/volume_down.png"))); // NOI18N
         volumeDownBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 volumeDownBtnMouseClicked(evt);
@@ -263,7 +262,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         volumeUpBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        volumeUpBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/volume_up.png"))); // NOI18N
+        volumeUpBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/volume_up.png"))); // NOI18N
         volumeUpBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 volumeUpBtnMouseClicked(evt);
@@ -271,7 +270,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         volumeFullBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        volumeFullBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/volume_full.png"))); // NOI18N
+        volumeFullBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/volume_full.png"))); // NOI18N
         volumeFullBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 volumeFullBtnMouseClicked(evt);
@@ -279,7 +278,7 @@ public class PlayerFrame extends javax.swing.JFrame {
         });
 
         muteBtn.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        muteBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/jobme/pk/images/mute.png"))); // NOI18N
+        muteBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/player/images/mute.png"))); // NOI18N
         muteBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 muteBtnMouseClicked(evt);
@@ -310,7 +309,7 @@ public class PlayerFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(volumeFullBtn)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(muteBtn)
+                .addComponent(muteBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         controlPanelLayout.setVerticalGroup(

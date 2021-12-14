@@ -76,7 +76,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="appTitle" max="32767" attributes="0"/>
+                      <Component id="appTitle" min="-2" pref="870" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="settingsBtn" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -113,7 +113,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/quit.png"/>
+                  <Image iconType="3" name="/player/images/quit.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -124,7 +124,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/settings.png"/>
+                  <Image iconType="3" name="/player/images/settings.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -244,7 +244,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="volumeFullBtn" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="muteBtn" min="-2" max="-2" attributes="0"/>
+                      <Component id="muteBtn" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -274,7 +274,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/repeat.png"/>
+                  <Image iconType="3" name="/player/images/repeat.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -285,7 +285,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/pause.png"/>
+                  <Image iconType="3" name="/player/images/pause.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -296,7 +296,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/play.png"/>
+                  <Image iconType="3" name="/player/images/play.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -307,7 +307,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/stop.png"/>
+                  <Image iconType="3" name="/player/images/stop.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -318,7 +318,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/open.png"/>
+                  <Image iconType="3" name="/player/images/open.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -334,7 +334,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/volume_down.png"/>
+                  <Image iconType="3" name="/player/images/volume_down.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -345,7 +345,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/volume_up.png"/>
+                  <Image iconType="3" name="/player/images/volume_up.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -356,7 +356,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/volume_full.png"/>
+                  <Image iconType="3" name="/player/images/volume_full.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -367,7 +367,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/jobme/pk/images/mute.png"/>
+                  <Image iconType="3" name="/player/images/mute.png"/>
                 </Property>
               </Properties>
               <Events>
