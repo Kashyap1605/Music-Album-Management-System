@@ -679,4 +679,3 @@ public class PlayerFrame extends javax.swing.JFrame {
         }
     }
 }
-}
